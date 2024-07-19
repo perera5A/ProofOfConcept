@@ -19,7 +19,7 @@ function App() {
         <Spacer />
         <Box p="10">
           <Text marginTop={"40px"} fontSize={{ base: "1xl", md: "20" }} as="b">
-            Don't Have an Account?
+            Don't have an Account?
           </Text>
 
           <a href="signup">
