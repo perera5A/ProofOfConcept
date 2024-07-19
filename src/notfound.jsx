@@ -5,7 +5,7 @@ function NotFound() {
     <>
       <div>404 Not Found</div>;
       <a href="/">
-        <Button size="md" marginTop={3}>
+        <Button size="lg" marginTop={3}>
           Back Home
         </Button>
       </a>
