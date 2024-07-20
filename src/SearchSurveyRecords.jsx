@@ -40,7 +40,13 @@ function SearchRecords() {
 
       <Center>
         <Stack spacing={8} direction="row" marginTop={20}>
-          <Flex bg="grey.900" borderRadius={15} boxShadow="lg " width={1000}>
+          <Flex
+            bg="grey.900"
+            borderRadius={15}
+            boxShadow="lg "
+            width={1000}
+            borderWidth="3px"
+          >
             <VStack
               w="full"
               h="full"
@@ -115,7 +121,13 @@ function SearchRecords() {
             </VStack>
           </Flex>
 
-          <Flex bg="grey.900" borderRadius={15} boxShadow="lg" width={1000}>
+          <Flex
+            bg="grey.900"
+            borderRadius={15}
+            boxShadow="lg"
+            width={1000}
+            borderWidth="3px"
+          >
             <VStack
               w="full"
               h="full"

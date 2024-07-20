@@ -41,7 +41,13 @@ const CreateRecord = () => {
       </Flex>
 
       <Center marginTop={100}>
-        <Flex bg="grey.900" borderRadius={15} boxShadow="lg " width={1200}>
+        <Flex
+          bg="grey.900"
+          borderRadius={15}
+          boxShadow="lg "
+          width={1200}
+          borderWidth="3px"
+        >
           <VStack w="full" h="full" p={10} spacing={10} alignItems="flex-start">
             <VStack spacing={3} alignItems="flex-start">
               <Heading size="xl">Create a Record</Heading>
